@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<style>
+    h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    li {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    }
+  
+</style>
+    <h1>Contact Us Page</h1>
+    <br>
+     <form action="/submit" method="post" class="formclass">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <br>
+
+        <p>Please select your gender:</p>
+        <input type="radio" id="gender" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="gender" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <textarea id="inquiry" name="inquiry" rows="4" cols="50" placeholder="Enter your inquiries here">
+        </textarea><br><br>
+        <button class="button"  value="Submit">Submit</button>
+    </form>
+    <br>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nne7AQibByc?si=MxmLc3C3y9a0ZktN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>
+   
+   
+    
+    <h2>Bullet Points</h2>
+    <ul>
+        <li><a href="contact.html">Contact Us Page</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+<li> <a href="homepage.html">Home Page</a></li>
+    </ul>
+    <h2>Number List</h2>
+    <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+    <h2>Image Example</h2>
+    <img src="tvsarawak_logo.jpg"alt="Description of image">
+</body>
+</html>
