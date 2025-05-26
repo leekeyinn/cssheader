@@ -5,15 +5,3 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
-
-ul a {
-    color: blue;
-}
-
-p {
-    text-transform: uppercase;
-    color: purple;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: "Lucida Console", "Courier New", monospace;
-}
